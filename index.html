@@ -1,198 +1,213 @@
 <!DOCTYPE html>
-<html lang="span">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!-- <style>
+        p{
+            /* css por tag*/
+            color:purple;
+            
+        }
+    </style> -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-    <a href=""> <!--subir imagenes-->
-        <img src="Img/glacier-9428953_1280.webp" alt="foto" title="ice frio hielo" width="100px">
-    </a>
-
-    <a href="pagina/contactos.html">
-        <img src="Img/contactos.jpg" alt="fotito" title="ir a contactos" width="100px">
-    </a>
-
-    <a href="pagina/servicios.html">
-        <img src="Img/servicios.webp" alt="fotote" title="ir a servicioso" width="100px">
-    </a>
-
-
-
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, accusantium explicabo? Incidunt, itaque. Saepe odio voluptatem, cum ex accusantium voluptatum reiciendis? Et rem perferendis molestiae. Eaque veritatis enim quod tempora.</p>
-<br>
-<br>
-<br>
-<br> 
-<b>Negrita</b>
-<strong>Negrita vende cocada</strong>
-<br>
-<small>chinchesito</small>
-
-<!--formula matematica-->
-<p> F <sub>(x)</sub> =2x <sup>3</sup> -4X</p>
-<br>
-<p>F<sub>x</sub>=2X<sup>4</sup>+3X<sup>3</sup>-2X<sup>2</sup>+5X-3</p>
-<br>
-
-<hr>
-
-<!-- Textos por tamaño -->
- <h1>Enlaces</h1>
- <h2>Enlaces con link</h2>
- <h3>link pagina universidad : </h3>
- <a href= "https://upcaguachica.unicesar.edu.co/"> pagina a la uni.</a>
-
- <h4>LINK A LA U CON TARGET</h4>
- <a href="https://upcaguachica.unicesar.edu.co/" target="_blank"> pagina nueva a la uni </a>
- <br>
- <a href="Img/Imagen1.jpg" target="_blank">IMAGENN</a>
- <br>
-
- <h5>Link a las paginas</h5>
- <br>
- <a href="pagina/contactos.html" target="_blank">pagina de contactos</a>
- <br>
- <a href="pagina/servicios.html" target="_blank">pagina de servicios</a>
- <h6>TEXTOS H6</h6>
- <br>
-
-<ol> <!--Ordened list-->
-    <li>Elemento1</li> <!-- list item-->
-    <li>elemento2</li>
-</ol>
-
-<!--tablas -->
-<table border="2px">
-    <tr> <!--filas-->
-    <th>Nombres</th> <!-- columnas -->
-    <th>Apellidos</th>
-    <th>telefono</th>
-    <th>direccion </th>
-
-</tr>
-
-<tr >
-    <th>burrito</th>
-    <th>camello</th>
-    <th>1235</th>
-    <th>cr no tengo/th>
-</tr>
-
-<tr>
-    <td>Ca</td>
-    <td>rrillo</td>
-    <td>233323</td>
-    <td>432</td>
-</tr>
-</table>
-<br> <!-- salto de linea-->
-
-<form action="" method="">  
-    <label for="nombre">Tu nombre:</label>
-    <input type="text" id="nombre" placeholder="Nombre:" maxlength="10" name="name">
-    <br>
-    <input type="email" placeholder="correo:" name="correo">
-    <br>
-    <textarea name="mensaje" id="mensaje" placeholder="mensaje"></textarea>
-    <br>
-    <label for="pais" > pais: </label>
-    <select name="pais" id="pais">
-            <option value = "mexico"> Mexico</option>
-            <option value = "España"> España</option>
-            <option value = "argentina"> Argentina</option>
-    </select>
-    <br>
-
-    <input type="radio" name="genero" value="hombre" id="hombre">
-    <label for="hombre"> Hombre</label>
-
-    <br>
-    <p>Este es un <span style="color:red;">texto rojo</span>.</p>
-
-    
-    <ol>
-        <li>puto</li>
-        <li>el que</li>
-        <li>lo lea</li>
-
-    </ol>
-
-    <ul>
-        <li>que </li>
-        <li>dice</li>
-        <li>la raza</li>
-    </ul>
-    <br>
-    <hr>
-    <div style="width: 100%; background: #daf7a6;">
-        <form action="">
-            
-            <label for="">Formulario Estudiante Nuevo</label>
-            <br>
-            <!-- <label for="">ID: </label> -->
-            <input type="number" placeholder="Ingrese alguito" style="width: 50% ;background: bisque;">
-            <br>
-            <!-- <label for="">Nombre</label> -->
-            
-            <input type="text" style="width: 50%; background: bisque;" placeholder="Ingrese su nombre feo">
-
-            <br>
-            <input type="text" style="width: 50%; background: bisque;" placeholder="ingrese Apellidos" >
-
-            <input type="email" style="width: 50%; background: bisque;" placeholder="ingrese email" >
-            <br>
-
-            <!-- select -->
-            <label for="">Seleccione el pueblo</label>
-            <select name="" id="">
-                <option value="">Chicagua</option>
-                <option value="">Bucaramanga</option>
-                <option value="">Vallenato</option>
-            </select>
-
-            <label for="">seleccione su identidad de genero</label><br>
-            <input type="radio" name="genero"><label for="">Femenino</label>
-            <input type="radio" name="genero"><label for="">masculión</label>
-            <input type="radio" name="genero"><label for="">binario</label>
-            <input type="radio" name="genero"><label for="">LGBTI +</label>
-            <input type="radio" name="genero"><label for="">OTRO...</label>
-
-            <!-- checkbox -->
-            <br>
-            <label for="">selecciones esos hobbies</label><br>
-            <input type="checkbox"><label for="">Miraculous</label>
-            <input type="checkbox"><label for="">gym</label>
-            <input type="checkbox"><label for="">bici</label>
-            <input type="checkbox"><label for="">pintar</label> 
-            
-            <!-- TextArea: cada texto con filas y columnas -->
-            <br>
-            <label for="">ingrese un mensaje</label><br>
-            <textarea name="" id=""></textarea><br>
-
-            <br>
-            <label for="">Ingresaa tus credenciales para acceso a sistema</label>
-            <br>
-            <input type="text" placeholder="ingresa un usuario"> <br>
-            <input type="password" placeholder="ingresa contraseña"> <br>
-            <input type="submit" Registrar datos>
-
-
-        </form>
-
-
-        <hr>
-        <br>
-
-        <audio src="audio/audio1.mp3.mp3" controls></audio><br>
-        <video src="video/video 1.mp4" controls width="30%"></video>
-
+    <div class="divRGBA">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat ullam quae laborum aperiam ipsa, eius voluptas quasi alias dolores delectus, error explicabo beatae quod, reiciendis similique? Placeat omnis amet suscipit.</p>
     </div>
 
-    
-</form>
+    <a href="">
+        <img src="img/btn-house.png" alt="no carga mensaje" title="chat" width="100px">
+    </a>
+
+    <!--Se va ir a otra pagina contacto-->
+    <a href="paginas/conctactos.html">
+        <img src="img/btn-contacto.png" alt="no carga mensaje" title="ir a contactos" width="100px">
+    </a>
+
+    <!--Se va ir a otra pagina servicio-->
+    <a href="paginas/servicios.html">
+        <img src="img/btn-servicios.png" alt="no carga mensaje" title="ir a servicios" width="100px">
+    </a>
+
+    <p class="pDiferente"> 
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab,
+        minima consectetur tempore assumenda nulla mollitia in esse,
+        dolores blanditiis illo laboriosam, 
+        asperiores iure ullam magnam libero autem. Ratione, accusantium dolores.
+    </p>
+    <br>
+    <p>
+        <!--Negrita sin peso semantico-->
+        <b>--negrita</b>
+        <br>
+        <strong class="negritaSemantica">negrita con semantica</strong>
+        <!--Negrita con peso semantico-->
+        
+    </p>
+
+    <p>
+        <!--Cursiva-->
+        <i>Texto en cursiva--</i>
+        <br>
+        <!--Cursiva con semantica-->
+        <em>Cursiva con peso semantico</em>
+        <!--Texto pequeño-->
+        <br>
+        <small>Texto pequeño</small>
+        <br>
+        <!--Formula matematica-->
+        <p>F <sub>(x)</sub> = 2X<sup>3</sup>-4x</p>
+        <p>F<sub>x</sub>=2x<sup>3</sup>-2x<sup>2</sup>+5x-3</p>
+        <br>
+
+        <!-- Texto marcado-->
+        <mark>Texto marcado</mark>
+        <br>
+        <ins>Texto subrayado</ins>
+        <br>
+        <del>Texto tachado</del>
+        <br>
+        <hr>
+
+        <!--Textos por tamaño-->
+        <h1>Textos h1</h1>
+        <h2>textos h2</h2>
+        <h3>textos h3</h3>
+        <h4>Textos h4</h4>
+        <h5>Textos h5</h5>
+        <h6>Textos h6</h6>
+
+        <hr>
+
+    </p>
+        <h2>Enlaces</h2>
+
+        <h3>Enlaces con link</h3>
+
+        <h3>Link pagina universidad- abre en la misma pagina</h4>
+        <a href="https://www.unicesar.edu.co/">pagina a la uni</a>
+        
+        <h4>Link pagina universidad</h4>
+        <a href="https://www.unicesar.edu.co/" target="_blank">Pagina de la universidad</a>
+        
+        <h4>Link a una imagen </h4>
+        <a href="img/playa.jpg" target="_blank">click para ver la imagen</a>
+
+        <h4>Link archivos</h4>
+        <a href="archivos/03 Marco conceptual 2018 Español.pdf"target="_blank">archivo pdf marco conceptual 2018</a>
+        
+        <h4>Link a paginas</h4>
+        <a href="paginas/conctactos.html">linck a la pagina de contactos</a>
+        <br>
+        <a href="paginas/servicios.html">link a la pagina de servicios</a>
+        <br>
+
+        <!--LISTAS-->
+        
+        <!--Listas ordenadas-->
+        <h2>Siga las siguientes instrucciones para subir a su repositorio remoto </h2>
+        <ol>
+            <li> Clonar el repositorio (clone)</li>
+            <li>Mirar el estado de nuestro repositorio (status)</li>
+        </ol>
+
+        <!--Listas desordenadas-->
+        <ul>
+            <li>Lista desordenada 1</li>
+            <li>Lista desordenada 2</li>
+        </ul>
+
+    <!--TABLAS-->
+
+    <!--Tabla (3*4) 3 filas 4 columnas-->
+    <table border="2">
+        <tr> <!--Filas-->
+            <th>ID</th> <!--con negrilla letra-->
+            <th>Nombres</th>
+            <th>Apellidos</th>
+            <th>E-mail</th>
+        </tr>
+        
+        <tr>
+            <td>12124</td><!--sin negrilla letra-->
+            <td>maria</td>
+            <td>perez</td>
+            <td>mariaperez@gmail.com</td>
+        </tr>
+
+        <tr>
+            <td>11323</td>
+            <td>rolito</td>
+            <td>rolitos</td>
+            <td>rolitos@leandro.com</td>
+        </tr>
+    </table>
+
+    <!--División-->
+    <div style="width: 100%;background: #e4e6e0;">
+        <!--crear formularios investigar adaptabilidad-->
+        <form action=""> <!--action accion que van hacer-->
+            <label for="">formularios estudiante nuevo </label>
+            <br>
+            <!-- <label for="">ID:</label> -->
+            <input type="number" placeholder="Ingrese su ID" style="width:50%; background-color: #e4e6e0;">
+            <br>
+            <!-- <label for="">Nombres</label> -->
+            <input type="text" style="width: 50%; background: #e4e6e0;" placeholder="ingrese nombre">
+            <input type="text" style="width: 50%;background: #e4e6e0;"placeholder="Ingrese apellidos">
+            <input type="email" style="width: 50%;background: #e4e6e0;"placeholder="Ingrese el email">
+            <br>
+
+            <label for="">Seleccione la ciudad</label>
+            <!--Lista de opciones -->
+            <select name="" id="">
+                <option value="">Aguachica</option>
+                <option value="">Bucaramanga</option>
+                <option value="">Valledupar</option>
+            </select>
+            
+            <br>
+            <label for="">Seleccione segun su identidad de genero</label>
+            <br>
+            <!--RADIOS, deben ir acompañadas de un label para poder saber de que trata,
+            si todos los radios tienen el mimo nombre solo me dejar seleccionar uno solo-->
+            <input type="radio" name="genero"><label for="">Femenino</label>
+            <input type="radio" name="genero"><label for="">Masculino</label>
+            <input type="radio" name="genero"><label for="">Binario</label>
+            <input type="radio" name="genero"><label for="">LGTBI+Q</label>
+            <input type="radio" name="genero"><label for="">OTRO</label>
+
+            <!-- Checkbox: poder seleccionar varias opciones, deben ir acompañadas de un label para poder saber de que trata
+            -->
+            <label for="">Selecciona tus hobbies</label><br>
+            <input type="checkbox"><label for="">ninguno</label>
+            <input type="checkbox"><label for="">nada</label>
+            <input type="checkbox"><label for="">vivir</label>
+            
+            <!-- TextArea: cada de texto con filas y columnas -->
+            <label for="">Ingrese un mensaje</label><br>
+            <textarea name="" id=""></textarea>
+            <br>
+
+            <!--  -->
+            <label for="">Ingrese credenciales para acceso a sistema</label> <br>
+            <input type="text" placeholder="Ingrese su usuario"><br>
+            <input type="password" placeholder="Ingrese su contraseña"><br>
+            <input type="submit">
+            <br><br>
+        </form>
+        <!-- Ingresar audios -->
+        <audio src="audios/audio1.mp3" controls></audio>
+        <b
+        <!-- Ingresar video -->
+        <video src="videos/video1.mp4" controls></video>
+        <br>
+
+        <!-- APIS  -->
+    </div>
 </body>
 </html>
